@@ -27,6 +27,7 @@ a {
 img {
   vertical-align: middle;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 nav {
@@ -42,6 +43,9 @@ header {
   color: #5f6368;
   border-bottom: 1px solid lightgrey;
   width: 100%;
+  position: fixed;
+  z-index: 13;
+  background-color: white;
 }
 
 .box {
@@ -67,6 +71,7 @@ h2 a {
   margin-right: 35px;
   font-weight: 500;
   font-size: .9em;
+  cursor: pointer;
 }
 
 .container a {
@@ -88,6 +93,7 @@ main {
   width: 65%;
   margin: auto;
   padding: 100px 0;
+  padding-top: 200px;
 }
 
 p {
