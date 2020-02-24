@@ -15,8 +15,8 @@ h2 {
 }
 
 h4 {
-  font-weight: normal;
-  font-size: 1.4em;
+  font-weight: 500;
+  font-size: 1.5em;
 }
 
 a {
@@ -82,3 +82,9 @@ li.blue {
 }
 
 /* MAIN */
+
+main {
+  width: 65%;
+  margin: auto;
+  padding: 100px 0;
+}
