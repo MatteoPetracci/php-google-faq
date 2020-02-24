@@ -17,6 +17,7 @@ h2 {
 h4 {
   font-weight: 500;
   font-size: 1.5em;
+  margin-bottom: 50px;
 }
 
 a {
@@ -87,4 +88,8 @@ main {
   width: 65%;
   margin: auto;
   padding: 100px 0;
+}
+
+p {
+  margin-bottom: 50px;
 }

@@ -59,8 +59,15 @@ $db = [
   </header>
   <main>
     <section>
-      <?php foreach ($db as $key => $value) { ?>
-        <h4><?php echo $key; ?></h4>
+      <!-- Ciclo dentro l'array db per prendere le chiavi del db e stamparle -->
+      <?php foreach ($db as $k => $value) { ?>
+        <!-- Stampo le chiavi (domande) dell'array database -->
+        <h4><?php echo $k; ?></h4>
+        <!-- Ciclo all'interno dell'array per prendere il valore della chiave response -->
+        <?php foreach ($value as $k => $responseFaq) { ?>
+          <!-- Stampo il valore di response -->
+          <p><?php echo $responseFaq ?></p>
+        <?php } ?>
       <?php } ?>
     </section>
   </main>
