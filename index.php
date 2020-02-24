@@ -34,7 +34,8 @@ $db = [
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <title>Document</title>
+  <link rel="icon" href="//ssl.gstatic.com/policies/favicon.ico">
+  <title>Domande frequenti - Privacy e termini - Google</title>
 </head>
 <body>
   <header>
