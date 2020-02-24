@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Google Sans";
+    src: url("https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Google Sans Bold";
+    src: url("https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2") format("woff2");
+}
+
 body {
   font-family: 'Roboto';
   font-size: 16px;
@@ -16,8 +26,9 @@ h2 {
 
 h4 {
   font-weight: 500;
-  font-size: 1.5em;
+  font-size: 1.55em;
   margin-bottom: 30px;
+  font-family: "Google Sans Bold";
 }
 
 a {
@@ -58,6 +69,11 @@ header {
 
 h2 a {
   color: #5f6368;
+  font-family: "Google Sans";
+}
+
+.container a {
+  font-family: "Google Sans";
 }
 
 .box nav ul {
@@ -72,6 +88,7 @@ h2 a {
   font-weight: 500;
   font-size: .9em;
   cursor: pointer;
+  font-family: "Google Sans";
 }
 
 .container a {
